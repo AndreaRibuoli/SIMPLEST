@@ -12,16 +12,16 @@ L'utilità `PASERIE/INSTALL` identifica il repository mediante il nome
 del proprietario del repository (come registrato su GitHub: `GitHub repository owner`) e il nome del repository stesso (`Repository`):
 
 ```
-                   PASERIE Installer       V1R0M8 (INSTALL)                  
-                                                                             
-Type choices, press Enter.                                                   
-                                                                             
-GitHub repository owner  . . . .                                             
-Repository . . . . . . . . . . .                 Character value             
-GitHub personal access token . .                                             
-                                                                             
-Target library . . . . . . . . .   *REPOSITORY   Character value, *REPOSITORY
-Target release . . . . . . . . .   *CURRENT      Character value, *CURRENT...
+                   PASERIE Installer       V1R0M8 (INSTALL)
+                                                          
+Type choices, press Enter.
+
+GitHub repository owner  . . .
+Repository . . . . . . . . . .                Character value
+GitHub personal access token .
+
+Target library . . . . . . . .  *REPOSITORY   Character value, *REPOSITORY
+Target release . . . . . . . .  *CURRENT      Character value, *CURRENT...
 ``` 
 
 Il default per il `GitHub personal access token` è il valore speciale **\*GETPAT** che ricerca localmente il **P**ersonal **A**ccess **T**oken chiamando una exit funtion di cui può essere estratto il sorgente CL e adattato alle esigenze. Il programma di default si basa sulla DATA AREA `PASERIE/GITTOKEN`.
@@ -32,11 +32,6 @@ Questo file contiene una lista di sorgenti: in questo caso la lista si limita a 
 `QTEMP/QCLSRC(BUILD)`
 
 ---
-```
-1234567890          1234567890
-          1234567890          12345678901234567890123456789012345678901234567890
-```
-
 ```
 QCLSRC    BUILD     CLLE      Il più semplice uso di PASERIE
 ```
